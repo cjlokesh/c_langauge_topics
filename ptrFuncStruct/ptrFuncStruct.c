@@ -2,7 +2,7 @@
 #include <stdio.h>  // Standard input output
 #include <stdint.h> // Standard integers types
 
-// Function pointer signaturesult
+// Function pointer signature
 typedef void (*ptrFuncAddNumbers)(uint8_t numberOne, uint8_t numberTwo); // This is function pointer can point to those functions whose return type is void and accepts 2 parameters.
 typedef uint8_t (*ptrFuncdisplayNumber)(uint8_t number);                 // This is function pointer can point to those functions whose return type is uint8_t and accepts 1 parameter
 
@@ -20,7 +20,7 @@ typedef struct
     ptrFuncdisplayNumber displayNumberFunc;
 } funcPtrStruct; // Structure variable name
 
-//Main function
+// Main function
 int main()
 {
     // Creating the local structure
