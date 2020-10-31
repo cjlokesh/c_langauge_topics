@@ -33,7 +33,7 @@ int main()
     // If structure memeber is normal variable, invoking the memeber after the period operator(.) name of the variable is enough
     // In case of function pointer pointing to the function, we must invoke it with the actual arguments
     fPtrStruct.addNumbersFunc(5, 5);                   // Invoking the function with actual arguments
-    uint8_t result = fPtrStruct.displayNumberFunc(10); // Invoking the function with actual arguments and storing it's return type
+    uint8_t result = fPtrStruct.displayNumberFunc(10); // Invoking the function with actual arguments and storing it's return value
     printf("result: %d\n", result);                    // Printing the returned value from the above function
 }
 
